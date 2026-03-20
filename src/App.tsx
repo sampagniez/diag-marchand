@@ -387,7 +387,7 @@ export default function App() {
         <div className="max-w-5xl mx-auto flex justify-between items-center">
           <div className="font-bold text-xl tracking-tight flex items-center">
             <img src="/logo.png" alt="Greenbull Campus" className="h-8 md:h-10 object-contain" />
-            <span className="ml-3 hidden sm:inline-block">DiagMDB</span>
+            <span className="ml-3">DiagMDB</span>
           </div>
           {currentPage !== 'intro' && (
             <button
